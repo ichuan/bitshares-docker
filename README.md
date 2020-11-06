@@ -6,6 +6,8 @@ Dockerfile for bitshares witness node and bitshares cli wallet
   - wallet is at `wallet.json`
   - need to run `set_password <pass>` and `unlock <pass>`
   - use `import_key myaccount <wif_priv_key>` to import account
+- Upon every run
+  - use `unlock <pass>` to unlock wallet
 
 ## Build
 
