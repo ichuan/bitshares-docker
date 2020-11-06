@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
-
 [ ! -f /opt/coin/config.ini ] && cp /opt/config.ini /opt/coin/
 [ ! -f /opt/coin/logging.ini ] && cp /opt/logging.ini /opt/coin/
 
